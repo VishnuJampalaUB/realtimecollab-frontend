@@ -38,4 +38,4 @@ docker-compose up
 4. Access the Application
 After the containers are up and running, you can access the application by navigating to:
 
-http://localhost:8000
+http://localhost:3000
