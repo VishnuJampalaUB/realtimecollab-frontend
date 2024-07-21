@@ -18,11 +18,24 @@ First, clone the application repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
-
+```
 
 ### 2. Build the Docker Images
 Next, build the Docker images for the application. This will compile your application and package it into a Docker image.
 
-bash
-Copy code
+```bash
 docker-compose build
+```
+
+
+### 3. Run the Docker Containers
+Once the images are built, you can start the containers using:
+
+```bash
+docker-compose up
+```
+
+4. Access the Application
+After the containers are up and running, you can access the application by navigating to:
+
+http://localhost:8000
