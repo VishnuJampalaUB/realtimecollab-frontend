@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
 
 
-2. Build the Docker Images
+### 2. Build the Docker Images
 Next, build the Docker images for the application. This will compile your application and package it into a Docker image.
 
 bash
